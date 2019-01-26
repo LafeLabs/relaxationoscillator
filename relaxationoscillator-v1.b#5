@@ -177,11 +177,11 @@
 <wire x1="24.13" y1="27.686" x2="25.908" y2="27.686" width="0.508" layer="21"/>
 <wire x1="24.13" y1="34.544" x2="46.99" y2="34.544" width="0.508" layer="21"/>
 <text x="39.624" y="7.62" size="1.016" layer="21" rot="R90">490-13982-1-ND</text>
-<text x="44.45" y="3.302" size="1.4224" layer="21" rot="R180">Audio Out</text>
+<text x="43.688" y="3.556" size="1.4224" layer="21" rot="R180">Audio Out</text>
 <text x="35.306" y="13.208" size="1.016" layer="21" rot="R90">100 uF</text>
-<text x="11.938" y="50.292" size="1.778" layer="21" rot="R180">V0</text>
-<text x="46.228" y="50.292" size="1.778" layer="21" rot="R180">DeltaV</text>
-<text x="27.178" y="11.43" size="1.016" layer="21" rot="R270">CP1-2503AM-ND</text>
+<text x="12.192" y="51.562" size="1.778" layer="21" rot="R180">V0</text>
+<text x="46.482" y="51.308" size="1.778" layer="21" rot="R180">DeltaV</text>
+<text x="27.686" y="11.43" size="1.016" layer="21" rot="R270">CP1-2503AM-ND</text>
 <wire x1="24.13" y1="27.686" x2="24.13" y2="20.828" width="0.508" layer="21"/>
 <wire x1="26.162" y1="20.574" x2="21.844" y2="20.574" width="0.508" layer="21"/>
 <wire x1="25.146" y1="19.558" x2="22.86" y2="19.558" width="0.508" layer="21"/>
@@ -194,24 +194,18 @@
 Version 1 
 January 2019 
 Public Domain</text>
-<wire x1="0.762" y1="37.846" x2="0.762" y2="27.686" width="0.508" layer="21"/>
-<wire x1="0.762" y1="27.686" x2="2.54" y2="27.686" width="0.508" layer="21"/>
-<wire x1="2.54" y1="37.846" x2="0.762" y2="37.846" width="0.508" layer="21"/>
-<wire x1="49.53" y1="42.926" x2="51.562" y2="42.926" width="0.508" layer="21"/>
-<wire x1="51.562" y1="42.926" x2="51.562" y2="32.766" width="0.508" layer="21"/>
-<wire x1="51.562" y1="32.766" x2="49.53" y2="32.766" width="0.508" layer="21"/>
-<wire x1="49.53" y1="30.226" x2="51.562" y2="30.226" width="0.508" layer="21"/>
-<wire x1="51.562" y1="30.226" x2="51.562" y2="20.066" width="0.508" layer="21"/>
+<wire x1="0.254" y1="37.846" x2="0.254" y2="27.432" width="0.508" layer="21"/>
+<wire x1="0.254" y1="27.432" x2="4.318" y2="27.432" width="0.508" layer="21"/>
+<wire x1="4.318" y1="37.846" x2="0.254" y2="37.846" width="0.508" layer="21"/>
+<wire x1="49.53" y1="42.926" x2="51.816" y2="42.926" width="0.508" layer="21"/>
+<wire x1="51.816" y1="42.926" x2="51.816" y2="32.512" width="0.508" layer="21"/>
+<wire x1="51.816" y1="32.512" x2="49.53" y2="32.512" width="0.508" layer="21"/>
+<wire x1="49.53" y1="29.972" x2="51.562" y2="29.972" width="0.508" layer="21"/>
+<wire x1="51.562" y1="29.972" x2="51.562" y2="20.066" width="0.508" layer="21"/>
 <wire x1="51.562" y1="20.066" x2="49.53" y2="20.066" width="0.508" layer="21"/>
+<wire x1="49.53" y1="20.066" x2="49.53" y2="19.812" width="0.508" layer="21"/>
 <text x="12.446" y="13.462" size="1.016" layer="21">277-6354-ND</text>
 <text x="8.636" y="36.576" size="1.016" layer="21" rot="R90">PTV09A-4030U-B203-ND</text>
-<text x="-0.762" y="37.592" size="1.016" layer="21" rot="R270">SAM1053-04-ND</text>
-<text x="53.086" y="20.066" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
-<text x="53.086" y="32.512" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
-<text x="0" y="8.636" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
-<wire x1="2.794" y1="8.636" x2="0.508" y2="8.636" width="0.508" layer="21"/>
-<wire x1="0.508" y1="8.636" x2="0.508" y2="18.796" width="0.508" layer="21"/>
-<wire x1="0.508" y1="18.796" x2="2.794" y2="18.796" width="0.508" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -675,8 +669,8 @@ design rules under a new name.</description>
 <element name="JP1" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="28.194" y="26.67"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="28.194" y="31.242"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="13.462" y="30.734"/>
-<element name="J1" library="SparkFun-Connectors" package="STEREOJACK2.5MM_STEREOJACK2.5MM" value="" x="31.75" y="4.572" rot="R90">
-<attribute name="PROD_ID" value="CONN-09878" x="31.75" y="4.572" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="STEREOJACK2.5MM_STEREOJACK2.5MM" value="" x="31.75" y="7.112" rot="R90">
+<attribute name="PROD_ID" value="CONN-09878" x="31.75" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="1206" value="10uF" x="36.83" y="14.732" rot="R90">
 <attribute name="PROD_ID" value="CAP-10057" x="36.83" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
@@ -720,6 +714,15 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C3" pad="2"/>
+<wire x1="50.292" y1="23.876" x2="50.292" y2="26.416" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="26.924" x2="50.292" y2="26.416" width="0" layer="19" extent="1-1"/>
+<wire x1="28.194" y1="26.67" x2="35.56" y2="26.924" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="21.756" x2="28.194" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="22.098" y1="21.706" x2="27.178" y2="21.756" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="16.132" x2="35.56" y2="26.924" width="0" layer="19" extent="1-1"/>
+<wire x1="31.282" y1="39.482" x2="28.194" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="15.026" y1="39.736" x2="31.282" y2="39.482" width="0" layer="19" extent="1-1"/>
+<wire x1="2.032" y1="9.906" x2="22.098" y2="21.706" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U$1" pad="5V"/>
@@ -800,13 +803,13 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="J1" pad="RING1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="33.6" y1="7.072" x2="36.83" y2="7.072" width="0.6096" layer="1"/>
-<wire x1="36.83" y1="7.072" x2="36.83" y2="13.332" width="0.6096" layer="1"/>
+<wire x1="33.6" y1="9.612" x2="36.83" y2="9.612" width="0.6096" layer="1"/>
+<wire x1="36.83" y1="9.612" x2="36.83" y2="13.332" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="J1" pad="TIP"/>
 <contactref element="C2" pad="1"/>
-<wire x1="31.75" y1="9.072" x2="31.75" y2="13.208" width="0.6096" layer="1"/>
+<wire x1="31.75" y1="11.612" x2="31.75" y2="13.208" width="0.6096" layer="1"/>
 <wire x1="26.67" y1="13.208" x2="26.67" y2="13.332" width="0.6096" layer="1"/>
 <wire x1="31.75" y1="13.208" x2="26.67" y2="13.208" width="0.6096" layer="1"/>
 </signal>
