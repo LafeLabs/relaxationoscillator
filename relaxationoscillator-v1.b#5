@@ -206,6 +206,9 @@ Public Domain</text>
 <wire x1="49.53" y1="20.066" x2="49.53" y2="19.812" width="0.508" layer="21"/>
 <text x="12.446" y="13.462" size="1.016" layer="21">277-6354-ND</text>
 <text x="8.636" y="36.576" size="1.016" layer="21" rot="R90">PTV09A-4030U-B203-ND</text>
+<text x="6.096" y="23.114" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
+<text x="53.086" y="17.272" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
+<text x="53.34" y="31.496" size="1.016" layer="21" rot="R90">SAM1053-04-ND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
