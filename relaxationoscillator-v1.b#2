@@ -179,8 +179,8 @@
 <text x="39.624" y="7.62" size="1.016" layer="21" rot="R90">490-13982-1-ND</text>
 <text x="44.45" y="3.302" size="1.4224" layer="21" rot="R180">Audio Out</text>
 <text x="35.306" y="13.208" size="1.016" layer="21" rot="R90">100 uF</text>
-<text x="12.192" y="51.562" size="1.778" layer="21" rot="R180">V0</text>
-<text x="46.482" y="51.308" size="1.778" layer="21" rot="R180">DeltaV</text>
+<text x="11.938" y="50.292" size="1.778" layer="21" rot="R180">V0</text>
+<text x="46.228" y="50.292" size="1.778" layer="21" rot="R180">DeltaV</text>
 <text x="27.178" y="11.43" size="1.016" layer="21" rot="R270">CP1-2503AM-ND</text>
 <wire x1="24.13" y1="27.686" x2="24.13" y2="20.828" width="0.508" layer="21"/>
 <wire x1="26.162" y1="20.574" x2="21.844" y2="20.574" width="0.508" layer="21"/>

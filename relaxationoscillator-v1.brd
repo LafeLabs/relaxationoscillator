@@ -189,7 +189,7 @@
 <text x="28.956" y="21.082" size="0.8128" layer="21" rot="R90">0603</text>
 <text x="21.082" y="20.574" size="0.8128" layer="21" rot="R90">0805</text>
 <text x="9.144" y="31.242" size="1.778" layer="21" rot="R270">Probe to solution</text>
-<text x="31.496" y="22.098" size="1.778" layer="21">Cap</text>
+<text x="31.496" y="22.098" size="1.4224" layer="21">CAPACITOR</text>
 <text x="8.382" y="2.54" size="1.4224" layer="21">Relaxation Oscillator 
 Version 1 
 January 2019 
